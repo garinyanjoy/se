@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
-import { BellOutlined, SettingOutlined } from '@ant-design/icons';
-import { useAuth } from '../auth/AuthContext'; // 导入useAuth
 
 // 类型定义
 interface HeaderButton {

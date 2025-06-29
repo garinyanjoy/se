@@ -8,4 +8,3 @@ const DataCenter: React.FC = () => {
   );
 };
 
-export default DataCenter;
