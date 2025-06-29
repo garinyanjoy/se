@@ -196,33 +196,7 @@ const Home: React.FC = () => {
         智慧海洋牧场可视化系统
       </Typography>
       
-      <Box sx={{ display: 'flex', justifyContent: 'center', mb: 3 }}>
-        <Button 
-          variant="contained" 
-          onClick={testApiConnection}
-          sx={{ 
-            mr: 2,
-            background: 'linear-gradient(45deg, #1e88e5, #00acc1)',
-            boxShadow: '0 4px 12px rgba(0,150,255,0.2)',
-          }}
-        >
-          测试API连接
-        </Button>
-        <Button 
-          variant="outlined" 
-          onClick={fetchMonitoringData}
-          sx={{
-            borderColor: '#00acc1',
-            color: '#00acc1',
-            '&:hover': {
-              borderColor: '#00838f',
-              backgroundColor: 'rgba(0,150,255,0.1)',
-            },
-          }}
-        >
-          刷新监控数据
-        </Button>
-      </Box>
+
       
       <Grid container spacing={3}>
         {/* 监控视频区域 */}
