@@ -76,9 +76,4 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     isInitialized
   };
 
-  return (
-    <AuthContext.Provider value={contextValue}>
-      {children}
-    </AuthContext.Provider>
-  );
 };
